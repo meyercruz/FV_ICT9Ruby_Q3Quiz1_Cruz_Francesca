@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QUIZ1</title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+body {
+    background-image: url('https://i.pinimg.com/736x/8d/dc/d0/8ddcd0d90915f3ae3eaf55d56b0bbf46.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	text-align: center;
+	background: lightblue;
+    padding: 25px;
+    box-shadow: 2px 2px 10px rgba(5, 4, 4, 0.8);
+    border-radius: 25px;
+    color: black;
+}
+
+</style>
+
+<body>
+
+<br><br>
+	<center><h1><b><mark style="font-family: sans-serif; background-color: aliceblue;">If a = 13 and b = 78, compute for the following.</mark></b></h1></center>
+
+<br><br>
+
+<div class="container">
+<h3>Arithmetic Operator</h3>
+
+<p id="answer"></p>
+<p id="answer2"></p>
+<button class="btn btn-light" onclick="var c = a*b;document.getElementById('answer').innerHTML= 'a multiplied by b is ' + c + '.'; var c = a / b;document.getElementById('answer2').innerHTML= 'a divided by b is 6.'"style="font-family: monospace;">Reveal Arithmetic Result</button>
+
+<br><br>
+
+<script>
+	   
+var a = 13;
+var b = 78;
+var c = a * b;
+
+</script>
+
+<h3>Comparison Operator</h3>
+
+<p id="answer3"></p>
+<p id="answer4"></p>
+<button class="btn btn-light" onclick="document.getElementById('answer3').innerHTML= 'is a less than b? ; true';document.getElementById('answer4').innerHTML= 'is a equal to b? ; false'"style="font-family: monospace;">Reveal Comparison Result</button>
+
+<br><br>
+
+<script>
+	   
+var d = 13;
+var e = 78;
+var f = a * b;
+
+</script>
+
+<h3>Logical Operator</h3>
+
+<p id="answer5"></p>
+<p id="answer6"></p>
+<button class="btn btn-light" onclick="var i = a*b;document.getElementById('answer5').innerHTML= '(a < b) !! (a > b)  ; false';document.getElementById('answer6').innerHTML= '(a <= b) && (a < b) ; true'"style="font-family: monospace;">Reveal Logical Result</button>
+
+<br><br>
+
+<script>
+	   
+var g = 13;
+var h = 78;
+var i = a * b;
+
+</script>
+
+</div>
+
+<br>
+<center><p style="font-family: fantasy;color: powderblue;">Submitted by: Francesca Cruz</p></center>
+
+</body>
+</html>
